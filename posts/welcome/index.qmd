@@ -1,11 +1,11 @@
 ---
-title: "Welcome To My Blog Template"
-author: "Emi Tanaka"
-date: "2022-07-18"
-categories: [news]
+title: "Welcome to Kunal's Blog"
+author: "Kunal Kapoor"
+date: "2025-10-06"
+categories: [Assignment]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+This is the time of the year where we understand the assignment pressure
 
 ![](thumbnail.jpg)
 
