@@ -1,21 +1,23 @@
 ---
 title: "About Me"
 image: profile_kk.jpg
-about:
-  template: jolla
-  id: about-me
-  links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/kkapoormails
-    - icon: linkedin
-      text: LinkedIn
-      href: https://au.linkedin.com/in/kkapoormails
-    - icon: envelope
-      text: Email
-      href: mailto:kkap0011@student.monash.edu
 ---
 
-Hey! I’m **Kunal**. I like calm mornings, loud playlists, and plans that make sense on napkins.  
-I believe in strong coffee, clear writing, and the power of a well-timed “no.”  
-If you’re here, welcome—take a look around, then tell me what I should be reading next.
+::: {.hero}
+![](profile_kk.jpg){.hero-img alt="Photo of Kunal"}
+
+<div class="hero-copy">
+
+## Hey, I’m Kunal.
+Calm mornings, loud playlists, and plans that make sense on napkins.
+I’m pro-long walks, pro-books with folded corners, and extremely pro-chai.
+I collect good questions, average photos, and recipes that never taste the same twice.
+If you’re here, welcome—take a look around, say hi, and tell me what I should be reading next.
+
+[Read the blog](/){.btn}
+[GitHub](https://github.com/kkapoormails){.btn .btn-ghost}
+[Email](mailto:kkap0011@student.monash.edu){.btn .btn-ghost}
+[LinkedIn](https://au.linkedin.com/in/kkapoormails){.btn .btn-ghost}
+
+</div>
+:::
