@@ -1,13 +1,21 @@
 ---
-title: "About"
-image: profile.jpg
+title: "About Me"
+image: profile_kk.jpg
 about:
   template: jolla
+  id: about-me
   links:
     - icon: github
-      text: Github
-      href: https://github.com/etc5523-2022
-
+      text: GitHub
+      href: https://github.com/kkapoormails
+    - icon: linkedin
+      text: LinkedIn
+      href: https://au.linkedin.com/in/kkapoormails
+    - icon: envelope
+      text: Email
+      href: mailto:kkap0011@student.monash.edu
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+Hey! I’m **Kunal**. I like calm mornings, loud playlists, and plans that make sense on napkins.  
+I believe in strong coffee, clear writing, and the power of a well-timed “no.”  
+If you’re here, welcome—take a look around, then tell me what I should be reading next.
