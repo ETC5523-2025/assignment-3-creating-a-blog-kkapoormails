@@ -13,12 +13,16 @@ page-layout: full
   <div class="hero-copy">
     <h2 class="hero-title">Hey, I’m Kunal.</h2>
     <p class="hero-tagline">
-      Calm mornings, loud playlists, and plans that make sense on napkins.<br>
-      I’m pro-long walks, pro-books with folded corners, and extremely pro-chai.<br>
-      I collect good questions, average photos, and recipes that never taste the same twice.<br><br>
+     Hi! I’m Kunal Kapoor—a big fan of meeting new people, discovering new places,
+      and jumping into a good game (whether it’s on a field or at a board).<br><br>
+
+      Friends and colleagues sometimes call me a “social butterfly” because I love connecting
+      with just about anyone and turning strangers into friends.<br><br>
+      Travel keeps life exciting—I’m always up for a new adventure, a new city, or a wild
+      travel story to swap (bonus points if there’s great food involved).<br><br>
+    </p>
       If you’re here, welcome — take a look around, say hi, and tell me what I should be reading next.
     </p>
-
     <div class="hero-actions">
       <a class="kbtn" href="/">Read the Blog</a>
       <a class="kbtn kbtn-ghost" href="https://github.com/kkapoormails">GitHub</a>
