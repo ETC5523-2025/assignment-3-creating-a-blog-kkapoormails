@@ -1,5 +1,5 @@
 ---
-title: "Blog – Boring papers converted"
+title: "Turning Boring papers into Blogs"
 page-layout: full
 listing:
   contents: .
