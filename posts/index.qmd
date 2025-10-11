@@ -6,13 +6,13 @@ listing:
   type: grid
   sort: "date desc"
   categories: true
-  image-placeholder: /thumbnail.jpg
+  image-placeholder: /thumbnail_posts.png
 ---
 
 ```{=html}
 <div class="hero">
   <div class="hero-media">
-    <img src="thumbnail.jpg"
+    <img src="thumbnail_posts.png"
          alt="Hero banner for Kunal's blog about data storytelling"
          class="hero-img" />
   </div>
