@@ -1,4 +1,255 @@
-/* css styles */
-.navbar-dark, .quarto-title-banner {
-  background-color: #006DAE;
+
+/* ---------- Global widths (home, about, posts) ---------- */
+.page-content > *:not(.navbar) {
+  max-width: 950px;
+  margin-inline: auto;
+}
+
+/* ---------- Typography & links ---------- */
+h1, h2, h3 { font-weight: 800; letter-spacing: -0.01em; }
+p, li { line-height: 1.6; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ---------- Cards (used on index) ---------- */
+.card {
+  background: var(--bs-body-bg);
+  border: none;
+  border-radius: 1rem;
+  padding: clamp(1rem, 4vw, 1.5rem);
+  box-shadow: 0 2px 12px rgba(0,0,0,.25);
+  margin-block: 1.2rem;
+}
+
+/* ---------- HERO (shared on home/about) ---------- */
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: clamp(1rem, 5vw, 3rem);
+  border-radius: 1.25rem;
+background: linear-gradient(180deg, #7b8a8b 0%, #6f7c7d 100%);  box-shadow: 0 2px 24px rgba(0,0,0,.25);
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-media { position: relative; width: 100%; }
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 1;     /* wide rectangle */
+  object-fit: cover;
+  border-radius: 1rem;
+  outline: 4px solid rgba(255,255,255,.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,.4);
+}
+
+/* soft overlay to help text pop over imagery */
+.hero-media::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:1rem;
+  background: linear-gradient(to bottom, rgba(0,0,0,.18), rgba(0,0,0,0));
+  pointer-events:none;
+}
+
+.hero-copy {
+  max-width: 72ch;
+  margin: 0 auto;
+  color: var(--hero-fg, #fff);
+}
+
+.hero-actions {
+  display:flex;
+  justify-content:center;
+  gap:1rem;
+  flex-wrap:nowrap;       /* single line on desktop */
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display:inline-block;
+  padding:.6rem 1.2rem;
+  border-radius:.8rem;
+  font-weight:600;
+  border:1px solid rgba(0,0,0,.12);
+  background:#111;        /* light-mode default */
+  color:#fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,.25);
+  transition: transform .08s ease, box-shadow .15s ease, background .15s ease;
+}
+.btn:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(0,0,0,.35); }
+
+.btn-ghost {
+  background: transparent;
+  color: inherit;
+  border: 1px solid rgba(0,0,0,.25);
+  box-shadow: none;
+}
+.btn-ghost:hover { background: rgba(0,0,0,.06); }
+
+/* ---------- Tables (gt/HTML) readable in both modes ---------- */
+.gt_table, .table {
+  background: var(--bs-body-bg) !important;
+  color: inherit !important;
+}
+.gt_table .gt_caption { color: inherit !important; opacity: .85; }
+
+/* ===========================================================
+   Light-mode refinements — make ghost buttons visible
+   =========================================================== */
+@media (prefers-color-scheme: light) {
+  /* Primary button stays dark */
+  .btn {
+    background: #111111;
+    color: #ffffff;
+    border-color: rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+
+  .btn:hover {
+    background: #000000;
+    color: #ffffff;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  }
+
+  /* Ghost buttons now have visible outlines and dark text */
+  .btn-ghost {
+    background: transparent;
+    color: #111111;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: none;
+  }
+
+  .btn-ghost:hover {
+    background: rgba(0,0,0,0.06);
+    color: #000000;
+  }
+}
+/* ===========================================================
+   Dark mode — high contrast & visible ghost buttons
+   =========================================================== */
+@media (prefers-color-scheme: dark) {
+  :root { color-scheme: dark; }
+
+  body {
+    background: #121212;
+    color: #eaeaea;
+  }
+
+  /* links */
+  a { color: #66d9ff; }
+
+  /* cards */
+  .card {
+    background: #1e1e1e;
+    box-shadow: 0 2px 12px rgba(255,255,255,.05);
+  }
+
+  /* hero */
+  .hero {
+    --hero-bg: #0d1117;
+    --hero-fg: #ffffff;
+    box-shadow: 0 2px 24px rgba(255,255,255,.06);
+  }
+  .hero-img { outline-color: rgba(255,255,255,.08); }
+
+  /* buttons — FULLY READABLE */
+  .btn {
+    background: #ffffff;           /* solid white */
+    color: #111111;                /* dark text for contrast */
+    border-color: rgba(255,255,255,0.2);
+    box-shadow: 0 4px 12px rgba(255,255,255,0.08);
+  }
+  .btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(255,255,255,0.12);
+  }
+
+  .btn-ghost {
+    background: rgba(255,255,255,0.12);  /* translucent gray */
+    color: #ffffff;                      /* readable text */
+    border: 1px solid rgba(255,255,255,0.35);
+  }
+  .btn-ghost:hover {
+    background: rgba(255,255,255,0.25);
+    color: #000000;
+  }
+}
+
+/* ---------- Mobile tweak: wrap buttons nicely ---------- */
+@media (max-width: 640px) {
+  .hero-actions { flex-wrap: wrap; gap: .6rem; }
+}
+
+.hero-actions .btn,
+.hero-actions .btn-ghost { text-decoration: none !important; }
+/* Base */
+.kbtn {
+  display:inline-block; padding:.6rem 1.2rem; border-radius:.8rem;
+  font-weight:600; text-decoration:none;
+  border:1px solid transparent; transition:transform .08s, box-shadow .15s, background .15s;
+}
+
+/* Light */
+@media (prefers-color-scheme: light) {
+  .kbtn        { background:#111; color:#fff; border-color:rgba(0,0,0,.15); box-shadow:0 4px 12px rgba(0,0,0,.15); }
+  .kbtn:hover  { transform:translateY(-1px); box-shadow:0 6px 18px rgba(0,0,0,.25); }
+  .kbtn-ghost  { background:transparent; color:#111; border-color:rgba(0,0,0,.30); box-shadow:none; }
+  .kbtn-ghost:hover { background:rgba(0,0,0,.06); }
+}
+
+/* Dark */
+@media (prefers-color-scheme: dark) {
+  .kbtn        { background:#fff; color:#111; border-color:rgba(255,255,255,.25); box-shadow:0 4px 12px rgba(255,255,255,.10); }
+  .kbtn:hover  { transform:translateY(-1px); box-shadow:0 6px 18px rgba(255,255,255,.20); }
+  .kbtn-ghost  { background:rgba(255,255,255,.12); color:#fff; border-color:rgba(255,255,255,.35); }
+  .kbtn-ghost:hover { background:rgba(255,255,255,.25); color:#000; }
+}
+
+/* ----- Blog listing cards ----- */
+.quarto-listing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.quarto-listing .listing {
+  background: var(--bs-body-bg);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 1rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.quarto-listing .listing:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+}
+
+.quarto-listing .listing-title {
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-top: 0.6rem;
+  color: #111;
+}
+
+.quarto-listing .listing-date {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+@media (prefers-color-scheme: dark) {
+  .quarto-listing .listing {
+    background: #1e1e1e;
+    border-color: rgba(255,255,255,0.1);
+    box-shadow: 0 2px 10px rgba(255,255,255,0.05);
+  }
+  .quarto-listing .listing-title { color: #fff; }
+  .quarto-listing .listing-date { color: #ccc; }
 }

@@ -2,22 +2,106 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "This is a blog template for the ETC5523 Communicating with Data assessment at Monash University."
+    "text": "Calm mornings, loud playlists, and plans that make sense on napkins. I’m pro-long walks, pro-books with folded corners, and extremely pro-chai. I collect good questions, average photos, and recipes that never taste the same twice. If you’re here, welcome—take a look around, say hi, and tell me what I should be reading next.\nRead the blog GitHub Email LinkedIn"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog Template",
+    "objectID": "about.html#hey-im-kunal.",
+    "href": "about.html#hey-im-kunal.",
+    "title": "About Me",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!"
+    "text": "Calm mornings, loud playlists, and plans that make sense on napkins. I’m pro-long walks, pro-books with folded corners, and extremely pro-chai. I collect good questions, average photos, and recipes that never taste the same twice. If you’re here, welcome—take a look around, say hi, and tell me what I should be reading next.\nRead the blog GitHub Email LinkedIn"
+  },
+  {
+    "objectID": "posts/delta-and-quarantine-risk/index.html",
+    "href": "posts/delta-and-quarantine-risk/index.html",
+    "title": "The Delta Paradox: How a New COVID-19 Variant Rewrote the Rules of Border Safety",
+    "section": "",
+    "text": "For much of 2020–2021, Australia’s border system felt like a fortress.\nStrict quarantine, relentless testing, and growing vaccine coverage — it worked.\nOutbreaks were rare. The world watched, impressed.\nThen came Delta — the variant that changed the rules overnight.\nVaccines still worked, but Delta could slip through them. Suddenly, the idea of “enough protection” got complicated.\nSo let’s ask the key question:\n\nHow much protection — through vaccines and coverage — do we really need to stay safe when leaks become more likely?"
+  },
+  {
+    "objectID": "posts/delta-and-quarantine-risk/index.html#remember-when-borders-felt-unbreakable",
+    "href": "posts/delta-and-quarantine-risk/index.html#remember-when-borders-felt-unbreakable",
+    "title": "The Delta Paradox: How a New COVID-19 Variant Rewrote the Rules of Border Safety",
+    "section": "",
+    "text": "For much of 2020–2021, Australia’s border system felt like a fortress.\nStrict quarantine, relentless testing, and growing vaccine coverage — it worked.\nOutbreaks were rare. The world watched, impressed.\nThen came Delta — the variant that changed the rules overnight.\nVaccines still worked, but Delta could slip through them. Suddenly, the idea of “enough protection” got complicated.\nSo let’s ask the key question:\n\nHow much protection — through vaccines and coverage — do we really need to stay safe when leaks become more likely?"
+  },
+  {
+    "objectID": "posts/delta-and-quarantine-risk/index.html#the-ground-beneath-the-data",
+    "href": "posts/delta-and-quarantine-risk/index.html#the-ground-beneath-the-data",
+    "title": "The Delta Paradox: How a New COVID-19 Variant Rewrote the Rules of Border Safety",
+    "section": "The Ground Beneath the Data",
+    "text": "The Ground Beneath the Data\nTo explore this, I built on: 1. Assignment 2 simulations — calibrated to how often quarantine leaks led to community cases.\n2. Research from Zachreson et al. (2022) — their modelling showed how Delta reshaped quarantine risk.\nRead it here on Science Advances →\nThey looked at a world where Delta’s R₀ — its reproduction rate — doubled from earlier strains.\nI followed the same logic: simulate the chance that a single breach leads to community spread.\n\n\n\n\n\n\n\nScenario Variable\nMeaning\n\n\n\n\nOutcome\nChance (%) that one quarantine leak causes community spread\n\n\nVaccine Coverage\n60 %, 70 %, 80 %, or 90 % of people vaccinated\n\n\nVaccine Strength\nHow well it blocks spread — 40 %, 60 %, or 80 %\n\n\nAssumptions\nPeople mix randomly (no lockdown effects); rules stay constant"
+  },
+  {
+    "objectID": "posts/delta-and-quarantine-risk/index.html#when-safe-stopped-being-safe",
+    "href": "posts/delta-and-quarantine-risk/index.html#when-safe-stopped-being-safe",
+    "title": "The Delta Paradox: How a New COVID-19 Variant Rewrote the Rules of Border Safety",
+    "section": "When “Safe” Stopped Being Safe",
+    "text": "When “Safe” Stopped Being Safe\nFigure Figure 1 shows how Delta flipped the odds.\nEven with the same systems, breaches became roughly 2½ times more likely to cause outbreaks.\n\n\n\n\n\n\n\n\nFigure 1: Delta doubled the chance of quarantine leaks becoming outbreaks — the wall wasn’t high enough anymore.\n\n\n\n\n\nThis figure captures the turning point. The system didn’t fail — the virus evolved faster than our defences."
+  },
+  {
+    "objectID": "posts/delta-and-quarantine-risk/index.html#what-does-enough-look-like",
+    "href": "posts/delta-and-quarantine-risk/index.html#what-does-enough-look-like",
+    "title": "The Delta Paradox: How a New COVID-19 Variant Rewrote the Rules of Border Safety",
+    "section": "What Does “Enough” Look Like?",
+    "text": "What Does “Enough” Look Like?\nIf Delta raised the bar, how high must we climb?\n@tbl-thresholds shows the estimated outbreak probabilities depending on coverage and vaccine strength.\n\n\n\n\nTable 1: When vaccines block spread strongly (≥60%) and 80% of people are covered, outbreak risk stays below 10%.\n\n\n\n\n\n\n\n\n\nThresholds for Safer Operation\n\n\nCoverage\nVaccine Blocks Spread (%)\nOutbreak Risk (%)\n\n\n\n\n60%\n80%\n20\n\n\n70%\n80%\n14\n\n\n80%\n80%\n9\n\n\n90%\n80%\n5\n\n\n60%\n60%\n24\n\n\n70%\n60%\n18\n\n\n80%\n60%\n12\n\n\n90%\n60%\n8\n\n\n60%\n40%\n28\n\n\n70%\n40%\n22\n\n\n80%\n40%\n16\n\n\n90%\n40%\n10\n\n\n\n\n\n\n\n\n\n\nA clear rule emerges:\n\nWhen 80% of people are vaccinated with a vaccine that blocks at least 60% of spread, the risk drops to about 1 in 10.\nDrop the vaccine strength to 40%, and even full coverage won’t save you.\n\nSo yes — coverage matters, but blocking transmission matters more.\n\n\n“These results echo the patterns found in Zachreson et al. (2022), whose national-scale model revealed similar coverage-efficacy thresholds (Figure 2 below).”"
+  },
+  {
+    "objectID": "posts/delta-and-quarantine-risk/index.html#the-lesson-of-delta",
+    "href": "posts/delta-and-quarantine-risk/index.html#the-lesson-of-delta",
+    "title": "The Delta Paradox: How a New COVID-19 Variant Rewrote the Rules of Border Safety",
+    "section": "The Lesson of Delta",
+    "text": "The Lesson of Delta\nIt’s tempting to think: vaccinate the border staff, problem solved.\nBut the simulations show that no wall is perfect if the air outside is full of sparks.\nSafety now depends on two layers:\n\nAt the border — vaccines that stop the virus from moving.\nIn the community — enough coverage to smother leaks fast.\n\nThis is the Delta Paradox: the same playbook that kept us safe before no longer works without stronger, faster adaptation."
+  },
+  {
+    "objectID": "posts/delta-and-quarantine-risk/index.html#why-it-matters-now",
+    "href": "posts/delta-and-quarantine-risk/index.html#why-it-matters-now",
+    "title": "The Delta Paradox: How a New COVID-19 Variant Rewrote the Rules of Border Safety",
+    "section": "Why It Matters Now",
+    "text": "Why It Matters Now\nDelta’s story isn’t history — it’s a warning.\nEvery new variant tests the same question: Are we protected, or just lucky?\nThe takeaway:\n\nDelta multiplied breach risk by about 2½×.\nTo restore safety, we need ≥60% blocking efficacy and ≥80% coverage.\nCoverage alone is not the cure; adaptability is.\n\nAs new variants come, the real measure of safety won’t be walls or rules —\nit’ll be how quickly we learn to rebuild them."
+  },
+  {
+    "objectID": "posts/delta-and-quarantine-risk/index.html#references",
+    "href": "posts/delta-and-quarantine-risk/index.html#references",
+    "title": "The Delta Paradox: How a New COVID-19 Variant Rewrote the Rules of Border Safety",
+    "section": "References",
+    "text": "References\n\nZachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon, J., McCaw, J., & Geard, N. (2022). COVID-19 in low-tolerance border quarantine systems: impact of the Delta variant of SARS-CoV-2. Science Advances, 8(14), eabm3624. https://www.science.org/doi/10.1126/sciadv.abm3624"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Welcome to Kunal’s Blog",
+    "section": "",
+    "text": "Short, readable posts from ETC5523 — takeaway first, evidence next.\nClick any card below to read the full story.\n\n\n\n\nBelow you’ll find all the latest posts. Each card links to its full article."
+  },
+  {
+    "objectID": "posts/index.html#the-assignment-marathon",
+    "href": "posts/index.html#the-assignment-marathon",
+    "title": "Welcome to Kunal’s Blog",
+    "section": "",
+    "text": "Short, readable posts from ETC5523 — takeaway first, evidence next.\nClick any card below to read the full story.\n\n\n\n\nBelow you’ll find all the latest posts. Each card links to its full article."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ETC5523 Blog Assessment",
+    "title": "Welcome to Kunal’s Data Communication Site",
     "section": "",
-    "text": "Welcome To My Blog Template\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 18, 2022\n\n\nEmi Tanaka\n\n\n\n\n\n\nNo matching items"
+    "text": "I like calm mornings, loud playlists, and plans that make sense on napkins.\nThis site is where I write short, readable posts for ETC5523.\n\n\nView Blog My GitHub LinkedIn"
+  },
+  {
+    "objectID": "index.html#a-little-about-me",
+    "href": "index.html#a-little-about-me",
+    "title": "Welcome to Kunal’s Data Communication Site",
+    "section": "A Little About Me",
+    "text": "A Little About Me\nI’m currently collecting good questions, average photos, and recipes that never taste the same twice.\nOn this site, I keep posts short: the point first, then the evidence."
+  },
+  {
+    "objectID": "index.html#blog-section",
+    "href": "index.html#blog-section",
+    "title": "Welcome to Kunal’s Data Communication Site",
+    "section": "Blog Section",
+    "text": "Blog Section\n\nDelta and Quarantine Risk — a quick rewrite of my earlier analysis with one figure and one table.\nRead the post\n\nFor everything else, see the full blog listing."
   }
 ]

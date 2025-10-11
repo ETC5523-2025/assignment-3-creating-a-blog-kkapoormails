@@ -1,14 +1,34 @@
 ---
-title: "ETC5523 Blog Assessment"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+title: "Stories, visuals, and insights by Kunal Kapoor"
 page-layout: full
-title-block-banner: true
 ---
+
+```{=html}
+<div class="hero">
+  <div class="hero-media">
+    <img src="profile_kk.jpg" alt="Banner" class="hero-img">
+  </div>
+  <div class="hero-copy">
+    <h1 class="hero-title">Hi, I’m Kunal Kapoor</h1>
+    <p class="hero-tagline">Short, readable posts from ETC5523 — takeaway first, evidence next.</p>
+    <div class="hero-actions">
+      <a class="kbtn" href="posts/">View Blog</a>
+      <a class="kbtn kbtn-ghost" href="about.html">About Me</a>
+    </div>
+  </div>
+</div>
+```
+<div class="card">
+
+### About Me
+Calm mornings. Loud playlists. Straight-to-the-point writing.  
+[Read more →](about.html)
+</div>
+
+<div class="card">
+### Blog
+Stories from assignments turned into clean, public-facing posts.  
+[Browse posts →](posts/)
+</div>
 
 

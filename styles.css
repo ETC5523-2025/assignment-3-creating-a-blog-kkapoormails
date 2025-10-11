@@ -1,84 +1,75 @@
-/* ========== HERO SECTION (centered container, unified width) ========== */
-.hero {
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-  padding: clamp(1rem, 5vw, 3rem);
-  border-radius: 1.25rem;
-  background: #fafafa;
-  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.05);
+/* Layout & type */
+.page-content > *:not(.navbar){max-width:950px;margin-inline:auto}
+h1,h2,h3{font-weight:800;letter-spacing:-.01em}
+p,li{line-height:1.6}
+a{text-decoration:none} a:hover{text-decoration:underline}
 
-  /* NEW: keep image, text and buttons the same width and centered */
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
+/* Cards */
+.card{
+  background:var(--bs-body-bg);
+  border:1px solid rgba(0,0,0,.08);
+  border-radius:1rem;
+  padding:clamp(1rem,4vw,1.5rem);
+  box-shadow:0 2px 12px rgba(0,0,0,.10);
+  margin-block:1.2rem;
 }
 
-/* --- Full-width rectangular image inside the container --- */
-.hero-media {
-  position: relative;
-  width: 100%;
+/* Hero */
+.hero{
+  display:flex;flex-direction:column;gap:1.2rem;align-items:center;
+  padding:clamp(1rem,5vw,3rem);
+  border-radius:1.25rem;
+  background:linear-gradient(180deg,#7b8a8b 0%,#6f7c7d 100%);
+  box-shadow:0 2px 24px rgba(0,0,0,.25);
+  max-width:1200px;margin:0 auto;text-align:center
 }
-
-.hero-img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 3 / 1;              /* wide rectangle */
-  object-fit: cover;
-  border-radius: 1rem;
-  outline: 4px solid rgba(0, 0, 0, 0.05);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+.hero-media{width:100%;position:relative}
+.hero-img{
+  width:100%;max-height:360px;aspect-ratio:3/1;object-fit:cover;
+  border-radius:1rem;outline:4px solid rgba(255,255,255,.05);
+  box-shadow:0 4px 20px rgba(0,0,0,.3)
 }
-
-/* OPTIONAL: soft gradient overlay (remove if you don’t want it) */
-.hero-media::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 1rem;
-  pointer-events: none;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.06), rgba(0,0,0,0));
+.hero-media::after{
+  content:"";position:absolute;inset:0;border-radius:1rem;
+  background:linear-gradient(to bottom,rgba(0,0,0,.15),rgba(0,0,0,0));pointer-events:none
 }
+.hero-copy{max-width:72ch;margin:0 auto;color:#fff}
+.hero-title{font-weight:800;font-size:clamp(1.6rem,3vw,2.4rem);margin:.25rem 0}
+.hero-tagline{opacity:.9}
+.hero-actions{display:flex;justify-content:center;gap:1rem;flex-wrap:wrap}
 
-/* --- Text and buttons --- */
-.hero-copy {
-  max-width: 72ch;                  /* a bit wider paragraph */
-  margin: 0 auto;                   /* center text block under image */
+/* Custom buttons (no Bootstrap clash) */
+.kbtn{
+  display:inline-block;padding:.6rem 1.2rem;border-radius:.8rem;font-weight:700;
+  text-decoration:none!important;border:1px solid transparent;
+  background:#111;color:#fff;box-shadow:0 4px 12px rgba(0,0,0,.18);
+  transition:transform .08s,box-shadow .15s,background .15s,color .15s
 }
+.kbtn:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.kbtn-ghost{background:transparent;color:#111;border:1px solid rgba(0,0,0,.28)}
+.kbtn-ghost:hover{background:rgba(0,0,0,.06)}
 
-.hero-actions {
-  display: flex;
-  justify-content: center;          /* keep buttons centered */
-  align-items: center;
-  gap: 1rem;                        /* even spacing */
-  flex-wrap: nowrap;                /* single line on desktop */
-  margin-top: 1.2rem;
-}
+/* Blog listing grid */
+.quarto-listing{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.2rem;margin-top:1.2rem}
+.quarto-listing .listing{background:var(--bs-body-bg);border:1px solid rgba(0,0,0,.08);border-radius:1rem;box-shadow:0 2px 10px rgba(0,0,0,.06);transition:transform .2s,box-shadow .2s}
+.quarto-listing .listing:hover{transform:translateY(-4px);box-shadow:0 4px 18px rgba(0,0,0,.1)}
 
-/* --- Buttons --- */
-.btn {
-  display: inline-block;
-  padding: 0.6rem 1.2rem;
-  border-radius: 0.8rem;
-  font-weight: 600;
-  text-decoration: none;
-  border: 1px solid rgba(0,0,0,0.1);
-  background: #111;
-  color: #fff;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-  transition: transform 0.08s ease, box-shadow 0.15s ease;
-}
-.btn:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(0,0,0,0.15); }
+/* Tables readable */
+.gt_table,.table{background:var(--bs-body-bg)!important;color:inherit!important}
+.gt_table .gt_caption{opacity:.85}
 
-.btn-ghost {
-  background: transparent;
-  color: inherit;
-  border-color: rgba(0,0,0,0.25);
-  box-shadow: none;
-}
-.btn-ghost:hover { background: rgba(0,0,0,0.06); }
+/* Mobile */
+@media (max-width:640px){.hero-actions{flex-wrap:wrap;gap:.6rem}}
 
-/* --- Mobile: allow wrapping when space is tight --- */
-@media (max-width: 640px) {
-  .hero-actions { flex-wrap: wrap; gap: 0.6rem; }
+/* Dark mode */
+@media (prefers-color-scheme:dark){
+  :root{color-scheme:dark}
+  body{background:#121212;color:#eaeaea}
+  a{color:#66d9ff}
+  .card,.quarto-listing .listing{background:#1e1e1e;border-color:rgba(255,255,255,.1);box-shadow:0 2px 10px rgba(255,255,255,.05)}
+  .hero{box-shadow:0 2px 24px rgba(255,255,255,.06)}
+  .hero-img{outline-color:rgba(255,255,255,.08)}
+  .kbtn{background:#fff;color:#111;border-color:rgba(255,255,255,.25);box-shadow:0 4px 12px rgba(255,255,255,.10)}
+  .kbtn-ghost{background:rgba(255,255,255,.12);color:#fff;border-color:rgba(255,255,255,.35)}
+  .kbtn-ghost:hover{background:rgba(255,255,255,.25);color:#000}
 }

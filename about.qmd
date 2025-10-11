@@ -1,23 +1,31 @@
 ---
 title: "About Me"
-image: profile_kk.jpg
+page-layout: full
 ---
 
-::: {.hero}
-![](profile_kk.jpg){.hero-img alt="Photo of Kunal"}
+```{=html}
+<div class="hero">
 
-<div class="hero-copy">
+  <div class="hero-media">
+    <img src="profile_kk.jpg" alt="Photo of Kunal" class="hero-img" />
+  </div>
 
-## Hey, I’m Kunal.
-Calm mornings, loud playlists, and plans that make sense on napkins.
-I’m pro-long walks, pro-books with folded corners, and extremely pro-chai.
-I collect good questions, average photos, and recipes that never taste the same twice.
-If you’re here, welcome—take a look around, say hi, and tell me what I should be reading next.
+  <div class="hero-copy">
+    <h2 class="hero-title">Hey, I’m Kunal.</h2>
+    <p class="hero-tagline">
+      Calm mornings, loud playlists, and plans that make sense on napkins.<br>
+      I’m pro-long walks, pro-books with folded corners, and extremely pro-chai.<br>
+      I collect good questions, average photos, and recipes that never taste the same twice.<br><br>
+      If you’re here, welcome — take a look around, say hi, and tell me what I should be reading next.
+    </p>
 
-[Read the blog](/){.btn}
-[GitHub](https://github.com/kkapoormails){.btn .btn-ghost}
-[Email](mailto:kkap0011@student.monash.edu){.btn .btn-ghost}
-[LinkedIn](https://au.linkedin.com/in/kkapoormails){.btn .btn-ghost}
+    <div class="hero-actions">
+      <a class="kbtn" href="/">Read the Blog</a>
+      <a class="kbtn kbtn-ghost" href="https://github.com/kkapoormails">GitHub</a>
+      <a class="kbtn kbtn-ghost" href="mailto:kkap0011@student.monash.edu">Email</a>
+      <a class="kbtn kbtn-ghost" href="https://au.linkedin.com/in/kkapoormails">LinkedIn</a>
+    </div>
+  </div>
 
 </div>
-:::
+```

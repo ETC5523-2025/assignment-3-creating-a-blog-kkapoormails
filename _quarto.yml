@@ -3,22 +3,31 @@ project:
   output-dir: docs
 
 website:
-  title: "Kunal Kapoor | Communicating with Data"
+  title: "The Art of Communicating with Data"
+  site-url: https://etc5523-2025.github.io/assignment-3-creating-a-blog-kkapoormails
   navbar:
+    background: dark
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Blog"
+        href: posts/
     right:
       - icon: github
-        aria-label: GitHub
-        href: "https://github.com/ETC5523-2025/assignment-3-creating-a-blog-kkapoormails"
-  page-navigation: true
-  search: true
+        href: https://github.com/kkapoormails
+        aria-label: "GitHub"
+      - icon: linkedin
+        href: https://au.linkedin.com/in/kkapoormails
+        aria-label: "LinkedIn"
+      - icon: envelope
+        href: mailto:kkap0011@student.monash.edu
+        aria-label: "Email"
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: cosmo
+      dark: darkly
     css: styles.css
-    toc: true
-    toc-depth: 3
-    link-external-newwindow: true
-
-execute:
-  freeze: auto

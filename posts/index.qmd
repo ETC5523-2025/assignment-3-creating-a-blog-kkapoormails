@@ -1,0 +1,35 @@
+---
+title: "Kunal's Blog – Stories from ETC5523"
+page-layout: full
+listing:
+  contents: .
+  type: grid
+  sort: "date desc"
+  categories: true
+  image-placeholder: /thumbnail.jpg
+---
+
+```{=html}
+<div class="hero">
+  <div class="hero-media">
+    <img src="thumbnail.jpg"
+         alt="Hero banner for Kunal's blog about data storytelling"
+         class="hero-img" />
+  </div>
+  <div class="hero-copy">
+    <h1 class="hero-title">Welcome to My Blog</h1>
+    <p class="hero-tagline">
+      Data, stories, and reflections from <strong>ETC5523 – Communicating with Data</strong>.<br>
+      Short, readable posts: <em>takeaway first, evidence next.</em>
+    </p>
+  </div>
+</div>
+```
+
+### ✍️ About This Space
+
+This blog is a public journal of my learning journey in data communication. Each post started as a class assignment, then evolved into a story that anyone can read — even without a statistics degree.
+
+Here’s what I try to do with every post: - Focus on clarity first — no jargon walls. - Let visuals do some of the explaining. - Keep it short enough to finish with your morning coffee. ☕
+
+I write mainly about data, design, and decision-making — but occasionally about the process of learning itself.
