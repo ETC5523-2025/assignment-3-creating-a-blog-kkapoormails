@@ -3,8 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "The Art of Communicating with Data"
+  title: "Learning Communication bit by bit"
   site-url: https://etc5523-2025.github.io/assignment-3-creating-a-blog-kkapoormails
+  favicon: favicon.png
   navbar:
     background: dark
     left:

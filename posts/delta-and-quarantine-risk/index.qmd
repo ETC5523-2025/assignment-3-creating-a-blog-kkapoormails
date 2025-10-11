@@ -3,6 +3,8 @@ title: "The Delta Paradox: How a New COVID-19 Variant Rewrote the Rules of Borde
 author: "Kunal Kapoor"
 date: "2025-10-10"
 categories: [Risk, Vaccines, COVID-19]
+image: banner.jpg
+title-block-banner: banner.jpg
 thumbnail: thumbnail_posts.png
 execute:
   echo: false
