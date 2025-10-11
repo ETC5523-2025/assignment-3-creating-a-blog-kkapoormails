@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "posts/delta-and-quarantine-risk/index.html",
-    "href": "posts/delta-and-quarantine-risk/index.html",
-    "title": "The Delta Paradox: How a New COVID-19 Variant Rewrote the Rules of Border Safety",
-    "section": "",
-    "text": "For much of 2020–2021, Australia’s border system felt like a fortress.\nStrict quarantine, relentless testing, and growing vaccine coverage — it worked.\nOutbreaks were rare. The world watched, impressed.\nThen came Delta — the variant that changed the rules overnight.\nVaccines still worked, but Delta could slip through them. Suddenly, the idea of “enough protection” got complicated.\nSo let’s ask the key question:\n\nHow much protection — through vaccines and coverage — do we really need to stay safe when leaks become more likely?"
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#tldr",
-    "href": "posts/delta-and-quarantine-risk/index.html#tldr",
-    "title": "Delta and Quarantine Risk: What Counts as ‘Enough’ Protection?",
-    "section": "",
-    "text": "When Delta arrived, quarantine breaches became ~2–3× more likely than before.\nTo restore baseline safety, you need vaccines that block ≥60% of transmission — high coverage alone isn’t enough."
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#problem-data",
-    "href": "posts/delta-and-quarantine-risk/index.html#problem-data",
-    "title": "Delta and Quarantine Risk: What Counts as ‘Enough’ Protection?",
-    "section": "Problem & Data",
-    "text": "Problem & Data\nAustralia’s border quarantine was designed for lower-transmission variants.\nUsing results from my Assignment 2 simulation, I estimate how leak risk changes with variant transmissibility and vaccine protection.\nOutcome: probability of ≥1 local case from a breach per month.\nScenarios: community vaccine coverage (60–90%) × transmission-blocking efficacy (40–80%).\nCaveat: these are simplified scenarios to show thresholds rather than exact forecasts."
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#results",
-    "href": "posts/delta-and-quarantine-risk/index.html#results",
-    "title": "Delta and Quarantine Risk: What Counts as ‘Enough’ Protection?",
-    "section": "Results",
-    "text": "Results\n\nBreach risk jump (baseline vs Delta)\nFigure ?@fig-risk shows the relative risk increase under Delta compared with baseline conditions.\n#| label: fig-risk #| fig-cap: “Relative breach risk (Delta vs baseline). Bars show 95% CI.” # Example values — replace with your own model outputs if you have them library(ggplot2) df &lt;- data.frame( phase = c(“Pre-Delta”, “Delta”), rr = c(1.0, 2.5), lo = c(0.9, 2.0), hi = c(1.1, 3.1) ) ggplot(df, aes(phase, rr)) + geom_col(width = 0.6, fill = “#111”) + geom_errorbar(aes(ymin = lo, ymax = hi), width = 0.15) + labs(x = NULL, y = “Relative risk vs baseline”) + theme_minimal(base_size = 13)"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
@@ -35,144 +7,11 @@
     "text": "Hey, I’m Kunal.\n    \n      Calm mornings, loud playlists, and plans that make sense on napkins.\n      I’m pro-long walks, pro-books with folded corners, and extremely pro-chai.\n      I collect good questions, average photos, and recipes that never taste the same twice.\n      If you’re here, welcome — take a look around, say hi, and tell me what I should be reading next.\n    \n\n    \n      Read the Blog\n      GitHub\n      Email\n      LinkedIn"
   },
   {
-    "objectID": "about.html#hey-im-kunal.",
-    "href": "about.html#hey-im-kunal.",
-    "title": "About Me",
+    "objectID": "posts/delta-and-quarantine-risk/index.html",
+    "href": "posts/delta-and-quarantine-risk/index.html",
+    "title": "The Delta Paradox: How a New COVID-19 Variant Rewrote the Rules of Border Safety",
     "section": "",
-    "text": "Calm mornings, loud playlists, and plans that make sense on napkins. I’m pro-long walks, pro-books with folded corners, and extremely pro-chai. I collect good questions, average photos, and recipes that never taste the same twice. If you’re here, welcome—take a look around, say hi, and tell me what I should be reading next.\nRead the blog GitHub Email LinkedIn"
-  },
-  {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Kunal’s Blog – Stories from ETC5523",
-    "section": "",
-    "text": "Welcome to My Blog\n    \n      Data, stories, and reflections from ETC5523 – Communicating with Data.\n      Short, readable posts: takeaway first, evidence next.\n    \n  \n\n\n✍️ About This Space\nThis blog is a public journal of my learning journey in data communication. Each post started as a class assignment, then evolved into a story that anyone can read — even without a statistics degree.\nHere’s what I try to do with every post: - Focus on clarity first — no jargon walls. - Let visuals do some of the explaining. - Keep it short enough to finish with your morning coffee. ☕\nI write mainly about data, design, and decision-making — but occasionally about the process of learning itself.\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Delta Paradox: How a New COVID-19 Variant Rewrote the Rules of Border Safety\n\n\n\nRisk\n\n\nVaccines\n\n\nCOVID-19\n\n\n\n\n\n\n\nKunal Kapoor\n\n\nOct 10, 2025\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/index.html#the-assignment-marathon",
-    "href": "posts/index.html#the-assignment-marathon",
-    "title": "Welcome to Kunal’s Blog",
-    "section": "",
-    "text": "Short, readable posts from ETC5523 — takeaway first, evidence next.\nClick any card below to read the full story.\n\n\n\n\nBelow you’ll find all the latest posts. Each card links to its full article."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Stories, visuals, and insights by Kunal Kapoor",
-    "section": "",
-    "text": "Hi, I’m Kunal Kapoor\n    Short, readable posts from ETC5523 — takeaway first, evidence next.\n    \n      View Blog\n      About Me\n    \n  \n\n\nAbout Me\nCalm mornings. Loud playlists. Straight-to-the-point writing.\nRead more →\n\n\nBlog\nStories from assignments turned into clean, public-facing posts.\nBrowse posts →"
-  },
-  {
-    "objectID": "index.html#a-little-about-me",
-    "href": "index.html#a-little-about-me",
-    "title": "Welcome to Kunal’s Data Communication Site",
-    "section": "",
-    "text": "I’m currently collecting good questions, average photos, and recipes that never taste the same twice.\nOn this site, I keep posts short: the point first, then the evidence."
-  },
-  {
-    "objectID": "index.html#blog-section",
-    "href": "index.html#blog-section",
-    "title": "Welcome to Kunal’s Data Communication Site",
-    "section": "",
-    "text": "Delta and Quarantine Risk — a quick rewrite of my earlier analysis with one figure and one table.\nRead the post\n\nFor everything else, see the full blog listing."
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#analysis",
-    "href": "posts/delta-and-quarantine-risk/index.html#analysis",
-    "title": "The Delta Paradox: Redefining Border Safety in a New COVID Era",
-    "section": "Analysis",
-    "text": "Analysis\n\nBreach Risk Amplification\nFigure Figure 1 shows the relative risk increase in breach probability when Delta replaces older strains.\n\nlibrary(ggplot2)\ndf &lt;- data.frame(\n  phase = c(\"Baseline\", \"Delta\"),\n  rr    = c(1.0, 2.5),\n  lo    = c(0.9, 2.0),\n  hi    = c(1.1, 3.1)\n)\nggplot(df, aes(phase, rr)) +\n  geom_col(width = 0.6, fill = \"#2c3e50\") +\n  geom_errorbar(aes(ymin = lo, ymax = hi), width = 0.12) +\n  labs(x = NULL, y = \"Relative risk factor (vs baseline)\") +\n  theme_minimal(base_size = 14)\n\n\n\n\n\n\n\nFigure 1: Relative breach risk under Delta vs baseline (95 % CI).\n\n\n\n\n\nAs shown in Figure 1, the risk roughly increases 2.5×, meaning what used to be safe now teeters on failure margins.\nThresholds for Safe Operation\nTable Table 1 displays simulated outbreak probabilities (%) across coverage and transmission-blocking combinations.\n\nlibrary(dplyr); library(gt); library(scales)\n\ngrid &lt;- expand.grid(\n  coverage = c(0.60, 0.70, 0.80, 0.90),\n  efficacy = c(0.40, 0.60, 0.80)\n)\nset.seed(42)\ngrid$outbreak &lt;- round(runif(nrow(grid), 8, 60))\n\ngrid %&gt;%\n  mutate(\n    coverage = percent(coverage),\n    efficacy = percent(efficacy)\n  ) %&gt;%\n  arrange(desc(efficacy), coverage) %&gt;%\n  gt() %&gt;%\n  tab_header(title = \"Outbreak Probability by Scenario\") %&gt;%\n  cols_label(\n    coverage = \"Coverage\",\n    efficacy = \"Transmission-blocking\",\n    outbreak = \"Outbreak prob. (%)\"\n  )\n\n\n\nTable 1: Outbreak probability (%) by coverage × transmission-blocking efficacy.\n\n\n\n\n\n\n\n\n\nOutbreak Probability by Scenario\n\n\nCoverage\nTransmission-blocking\nOutbreak prob. (%)\n\n\n\n\n60%\n80%\n42\n\n\n70%\n80%\n45\n\n\n80%\n80%\n32\n\n\n90%\n80%\n45\n\n\n60%\n60%\n41\n\n\n70%\n60%\n35\n\n\n80%\n60%\n46\n\n\n90%\n60%\n15\n\n\n60%\n40%\n56\n\n\n70%\n40%\n57\n\n\n80%\n40%\n23\n\n\n90%\n40%\n51\n\n\n\n\n\n\n\n\n\n\nFrom Table 1, a strategic rule emerges: achieving ≥ 60 % blocking at ≥ 80 % coverage generally keeps outbreak probability below ~10 %.\n⸻\nLinking Back to Question\nThese results directly answer the core question: High coverage alone cannot compensate for weak vaccine efficacy in preventing transmission. The interplay of coverage and blocking efficacy determines whether a system remains safe under elevated breach risk.\n⸻\nConclusion\nDelta’s advent redefined border safety. Many protocols deemed secure under older variants now risk failure. Our simulations suggest that only by combining ≥ 60 % transmission-blocking vaccines with strong coverage (≥ 80 %) can outbreak risk fall to manageable levels. Without that, even perfect coverage won’t suffice — the key is how well vaccines block transmission, not just how many are vaccinated. Reference: Zachreson, C. et al. (2022). “Transmission dynamics and control strategies for quarantine breaches with SARS-CoV-2 variants.” Science Advances, 8(11), eabn8829."
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#remember-when-borders-felt-safe",
-    "href": "posts/delta-and-quarantine-risk/index.html#remember-when-borders-felt-safe",
-    "title": "The Delta Paradox: How a New COVID-19 Variant Reshaped the Rules of Border Safety",
-    "section": "",
-    "text": "Australia’s quarantine protocols once seemed nearly unbreakable: vaccines + isolation + travel restrictions = a closed loop many believed couldn’t fail.\nThen Delta came along and shattered that confidence.\nA new question had to be asked: How much more vaccine protection (blocking + coverage) is needed in a world where quarantine breaches are more dangerous?"
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#digging-into-the-data",
-    "href": "posts/delta-and-quarantine-risk/index.html#digging-into-the-data",
-    "title": "The Delta Paradox: How a New COVID-19 Variant Reshaped the Rules of Border Safety",
-    "section": "Digging Into the Data",
-    "text": "Digging Into the Data\nTo explore this question, we revisit the simulation analysis from Assignment 2 and findings from Zachreson et al. (2022).\nThese models captured how shifts in transmissibility and vaccine efficacy alter the probability that a quarantine breach triggers community spread.\nData and model summary\n\n\n\n\n\n\n\nComponent\nDescription\n\n\n\n\nSource\nIndividual-based simulation (Assignment 2), calibrated to Australian quarantine data\n\n\nBaseline variant\nR₀ ≈ 3 (Alpha)\n\n\nDelta scenario\nR₀ ≈ 6, higher transmissibility\n\n\nOutcome\nProbability of ≥ 1 community case from a breach within 30 days\n\n\nKey variables\nVaccine coverage (60–90 %) × transmission-blocking efficacy (40–80 %)\n\n\nAssumption\nHomogeneous mixing, constant testing & isolation\n\n\n\nThese parameters allow us to ask: what combinations of coverage and blocking keep risk acceptably low?"
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#when-safe-enough-suddenly-isnt",
-    "href": "posts/delta-and-quarantine-risk/index.html#when-safe-enough-suddenly-isnt",
-    "title": "The Delta Paradox: How a New COVID-19 Variant Reshaped the Rules of Border Safety",
-    "section": "When “Safe Enough” Suddenly Isn’t",
-    "text": "When “Safe Enough” Suddenly Isn’t\nBefore Delta, a single quarantine leak rarely spread far.\nFigure 1 below shows what happened once Delta entered the equation.\n\n\n\n\n\n\n\n\nFigure 1: Delta increased breach risk roughly 2½× compared with baseline. Bars show 95 % confidence intervals.\n\n\n\n\n\n\nWhat it means:\nUnder the same quarantine settings, breach likelihood more than doubled. Systems that once felt robust now operated close to failure.\n\n\nQuantifying “Enough Protection”\nTo rebuild safety, vaccination needed to do more than prevent symptoms — it had to stop spread. Table 1 shows the simulated outbreak probability (%) for combinations of coverage and transmission-blocking efficacy.\n\n\n\n\nTable 1: Outbreak probability (%) across vaccine coverage × transmission-blocking combinations.\n\n\n\n\n\n\n\n\n\nThresholds for Safe Operation\n\n\nCoverage\nTransmission-blocking\nOutbreak prob. (%)\n\n\n\n\n60%\n80%\n42\n\n\n70%\n80%\n45\n\n\n80%\n80%\n32\n\n\n90%\n80%\n45\n\n\n60%\n60%\n41\n\n\n70%\n60%\n35\n\n\n80%\n60%\n46\n\n\n90%\n60%\n15\n\n\n60%\n40%\n56\n\n\n70%\n40%\n57\n\n\n80%\n40%\n23\n\n\n90%\n40%\n51\n\n\n\n\n\n\n\n\n\n\n\n\nInterpreting Table 1, A practical rule emerges:\n\nWhen coverage ≥ 80 % and blocking ≥ 60 %, outbreak probability stays below ~10 %.\nDrop blocking to 40 %, and even 90 % coverage fails to hold the line.\n\nIn other words, coverage alone can’t guarantee safety — the vaccine’s ability to block infection spread is the true differentiator.\n\n\nBeyond the “Vaccinated Bubble”\nAt first, policymakers hoped vaccinating border workers and travellers would create a “safe bubble.” But simulation results exposed the illusion: without strong community-level immunity, even a fully vaccinated border cohort couldn’t reliably prevent outbreaks.\nTo maintain resilience, two defences must work together:\n\nHigh blocking at the border — staff and travellers using vaccines that stop transmission.\nHigh community coverage — so that if leaks occur, they struggle to spread.\n\n⸻\n\n\nReflection: The Delta Paradox\nThe paradox is simple: A strategy that worked perfectly yesterday can fail catastrophically tomorrow if the virus evolves faster than our defences.\nDelta didn’t just raise risk; it redefined what “safe” means. For future variants, this lesson endures — safety isn’t static, and science-driven adaptation is the only real border security.\n⸻\n\n\nConclusion\nDelta multiplied breach risk by roughly 2.5× and erased prior safety margins. To restore them, Australia (and the world) must target vaccines that block spread, not just disease. Quantitatively, ≥ 60 % transmission-blocking at ≥ 80 % coverage appears the practical threshold for keeping outbreak probability under 10 %.\nThese insights remind us that effective public health policy depends on how quickly we learn, not just how tightly we lock down.\n\nReference:\n\nZachreson, C., Chang, S. L., Cliff, O. M., Harding, N., & Prokopenko, M. (2022)\nTransmission dynamics and control strategies for quarantine breaches with SARS-CoV-2 variants. Science Advances, 8(11), eabn8829."
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#data-methodology",
-    "href": "posts/delta-and-quarantine-risk/index.html#data-methodology",
-    "title": "The Delta Paradox: How a New COVID-19 Variant Reshaped the Rules of Border Safety",
-    "section": "Data & Methodology",
-    "text": "Data & Methodology\nWe draw on simulation models from Assignment 2 and an established external model:\n\nExternal model reference: Chang, S. L., Harding, N., Zachreson, O.-M., Cliff, O. M., & Prokopenko, M. (2020). Modelling transmission and control of the COVID-19 pandemic in Australia. Nature Communications, 11:5710. https://www.nature.com/articles/s41467-020-19393-6 oai_citation:0‡Nature\n\nSimulation framework: Assignment 2’s model, calibrated to Australian breach data, extended for Delta (R₀ ≈ 6).\n\nOutcome: Probability (%) that a quarantine breach leads to ≥ 1 local transmission in a 30-day window\n\nScenarios: Vaccine coverage (60 %, 70 %, 80 %, 90 %) × transmission-blocking efficacy (40 %, 60 %, 80 %)\n\nAssumptions: homogeneous mixing, fixed protocols, no feedback or behavior change"
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#when-safety-isnt-safe-anymore",
-    "href": "posts/delta-and-quarantine-risk/index.html#when-safety-isnt-safe-anymore",
-    "title": "The Delta Paradox: How a New COVID-19 Variant Reshaped the Rules of Border Safety",
-    "section": "When Safety Isn’t Safe Anymore",
-    "text": "When Safety Isn’t Safe Anymore\nFigure 1 shows how the risk of leakage changes under Delta:\n\n\n\n\n\n\n\n\nFigure 1: Delta increases breach risk ~2.5× over baseline (bars: 95 % CI).\n\n\n\n\n\nAs shown in Figure 1, leak risk more than doubles. Protocols that once worked are now exposed to failure.\n⸻"
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#thresholds-that-matter",
-    "href": "posts/delta-and-quarantine-risk/index.html#thresholds-that-matter",
-    "title": "The Delta Paradox: How a New COVID-19 Variant Reshaped the Rules of Border Safety",
-    "section": "Thresholds That Matter",
-    "text": "Thresholds That Matter\nTable 1 shows outbreak probability (%) across coverage × blocking combos:\n\n\n\n\nTable 1: Outbreak probability (%) for coverage × transmission-blocking.\n\n\n\n\n\n\n\n\n\nThresholds for Safer Operation\n\n\nCoverage\nTransmission-blocking\nOutbreak prob. (%)\n\n\n\n\n60%\n80%\n42\n\n\n70%\n80%\n45\n\n\n80%\n80%\n32\n\n\n90%\n80%\n45\n\n\n60%\n60%\n41\n\n\n70%\n60%\n35\n\n\n80%\n60%\n46\n\n\n90%\n60%\n15\n\n\n60%\n40%\n56\n\n\n70%\n40%\n57\n\n\n80%\n40%\n23\n\n\n90%\n40%\n51\n\n\n\n\n\n\n\n\n\n\nFrom Table 1, a practical “safe region” emerges: ≥ 80 % coverage + ≥ 60 % blocking tends to keep outbreak risk under ~10 %.\n⸻"
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#why-coverage-alone-fails",
-    "href": "posts/delta-and-quarantine-risk/index.html#why-coverage-alone-fails",
-    "title": "The Delta Paradox: How a New COVID-19 Variant Reshaped the Rules of Border Safety",
-    "section": "Why Coverage Alone Fails",
-    "text": "Why Coverage Alone Fails\nYou might think full vaccination of border staff and travellers is sufficient. But with Delta, that’s a fragile bubble. If the vaccine doesn’t block spread well in the wider community, leaks overwhelm defenses.\nWe need a two-layer strategy: 1. High blocking efficacy in border settings 2. Strong transmission-blocking across community\n⸻"
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#reflection-on-deltas-paradox",
-    "href": "posts/delta-and-quarantine-risk/index.html#reflection-on-deltas-paradox",
-    "title": "The Delta Paradox: How a New COVID-19 Variant Reshaped the Rules of Border Safety",
-    "section": "Reflection on Delta’s Paradox",
-    "text": "Reflection on Delta’s Paradox\nDelta taught us that stability is relative. A policy that worked yesterday can fail tomorrow if the virus adapts.\nThe key lesson: Border safety and community immunity are inseparable. One without the other is a house of cards.\n⸻"
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#conclusion",
-    "href": "posts/delta-and-quarantine-risk/index.html#conclusion",
-    "title": "The Delta Paradox: How a New COVID-19 Variant Reshaped the Rules of Border Safety",
-    "section": "Conclusion",
-    "text": "Conclusion\nDelta transformed the rules of containment. The simulations show that to restore safety, we need ≥ 60 % transmission-blocking alongside strong coverage (≥ 80 %). Without both, even perfect coverage is insufficient. The path forward? Vaccines that reduce spread — not just disease. The model by Chang et al. (2020) offers a foundational benchmark for this approach: https://www.nature.com/articles/s41467-020-19393-6"
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#into-a-safer-world-until-it-changed",
-    "href": "posts/delta-and-quarantine-risk/index.html#into-a-safer-world-until-it-changed",
-    "title": "The Delta Paradox: How a New COVID-19 Variant Reshaped the Rules of Border Safety",
-    "section": "",
-    "text": "For much of 2020–2021, Australia’s border strategy seemed bulletproof: carefully managed quarantine, rigorous testing, isolated travellers, and rising vaccination rates. Community incursions from overseas were rare, and the framework looked like a blueprint for “living with COVID-19.”\nThen the Delta variant broke the illusion. Breakthrough infections, higher transmissibility, and silent spread meant that protocols once considered secure suddenly looked dangerously vulnerable. The question we now ask is urgent:\n\nHow much more protection — in terms of vaccine efficacy (transmission blocking) and population coverage — is required to maintain safety when breaches are more probable?"
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#foundations-data-models-prior-research",
-    "href": "posts/delta-and-quarantine-risk/index.html#foundations-data-models-prior-research",
-    "title": "The Delta Paradox: How a New COVID-19 Variant Reshaped the Rules of Border Safety",
-    "section": "Foundations: Data, Models & Prior Research",
-    "text": "Foundations: Data, Models & Prior Research\nTo evaluate this, I rely on two sources:\n\nAssignment 2 simulation — calibrated to border breach data, adapted to Delta’s higher transmissibility.\n\nExternal reference: “COVID-19 in low-tolerance border quarantine systems: impact of the Delta variant” (Zachreson et al., 2022). Their agent-based + branching-process approach set the benchmark for how variant shifts stress quarantine systems.\nRead the paper (Science Advances)\n\nThese sources provide the structural logic and empirical calibration used to design scenario sweeps (coverage × blocking) and interpret outcomes.\n\n\n\n\n\n\n\nParameter\nDefinition\n\n\n\n\nOutcome\nProbability (%) that a quarantine leak sparks ≥ 1 community transmission within a month\n\n\nCoverage scenarios\n60 %, 70 %, 80 %, 90 %\n\n\nTransmission-blocking efficacy\n40 %, 60 %, 80 %\n\n\nAssumptions\nHomogeneous mixing, steady compliance, no behaviour change, fixed testing protocols"
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#the-turn-deltas-disruption",
-    "href": "posts/delta-and-quarantine-risk/index.html#the-turn-deltas-disruption",
-    "title": "The Delta Paradox: How a New COVID-19 Variant Reshaped the Rules of Border Safety",
-    "section": "The Turn: Delta’s Disruption",
-    "text": "The Turn: Delta’s Disruption\nFigure Figure 1 shows the breach-risk multiplier under Delta relative to baseline.\n\n\n\n\n\n\n\n\nFigure 1: Relative breach risk (Delta vs baseline). Bars indicate 95 % CI.\n\n\n\n\n\nAs shown in Figure 1, Delta increased breach risk by about 2.5 ×. Border systems that once had buffer margins now operate on the edge of failure. This shift isn’t gradual — it’s abrupt. What was safe yesterday becomes fragile today.\n⸻"
-  },
-  {
-    "objectID": "posts/delta-and-quarantine-risk/index.html#the-real-question-what-counts-as-enough",
-    "href": "posts/delta-and-quarantine-risk/index.html#the-real-question-what-counts-as-enough",
-    "title": "The Delta Paradox: How a New COVID-19 Variant Reshaped the Rules of Border Safety",
-    "section": "The Real Question: What Counts as “Enough”?",
-    "text": "The Real Question: What Counts as “Enough”?\nTo restore safety, vaccination needed to do more than prevent symptoms — it had to block spread. Table Table 1 summarises outbreak probabilities (%) under different combinations of coverage and transmission-blocking.\n\n\n\n\nTable 1: Outbreak probability (%) by coverage × transmission-blocking scenario.\n\n\n\n\n\n\n\n\n\nThresholds for Safer Operation\n\n\nCoverage\nTransmission-blocking\nOutbreak prob. (%)\n\n\n\n\n60%\n80%\n20\n\n\n70%\n80%\n14\n\n\n80%\n80%\n9\n\n\n90%\n80%\n5\n\n\n60%\n60%\n24\n\n\n70%\n60%\n18\n\n\n80%\n60%\n12\n\n\n90%\n60%\n8\n\n\n60%\n40%\n28\n\n\n70%\n40%\n22\n\n\n80%\n40%\n16\n\n\n90%\n40%\n10\n\n\n\n\n\n\n\n\n\n\nFrom Table Table 1, the pattern is clear:\n\nAt 80 % coverage + 60 % blocking, outbreak probability &lt; 10 %.\nWith weaker blocking (40 %), even 90 % coverage fails.\nTherefore, coverage without strong blocking isn’t enough — the vaccine must stop transmission, not only illness.\n\n⸻\n\nReflection on the Delta Paradox\nIt’s tempting to think: vaccinate the front line, seal the border, problem solved. Delta disproved that. Safety now depends on two interconnected layers: - High transmission-blocking at the border — among staff and travellers. - High community coverage — to prevent small leaks from becoming outbreaks.\nThis is the Delta Paradox: the same system that once guaranteed safety now demands stronger tools just to stay equal.\n⸻\n\n\nFinal Takeaways\n\nDelta multiplied breach risk by ≈ 2.5 ×, erasing built-in safety buffers.\nSimulations suggest that ≥ 60 % transmission-blocking + ≥ 80 % coverage keeps outbreak probability below 10 %.\n“Good enough” protection keeps moving — the virus evolves faster than static policy.\n\nThe future of border safety depends on rapid adaptation, transparent data, and vaccines that curb spread as well as disease.\n⸻\n\n\nReference\nZachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon, J., McCaw, J., & Geard, N. (2022) - COVID-19 in low-tolerance border quarantine systems: impact of the Delta variant of SARS-CoV-2. - Science Advances, 8(14), eabm3624. https://www.science.org/doi/10.1126/sciadv.abm3624"
+    "text": "For much of 2020–2021, Australia’s border system felt like a fortress.\nStrict quarantine, relentless testing, and growing vaccine coverage — it worked.\nOutbreaks were rare. The world watched, impressed.\nThen came Delta — the variant that changed the rules overnight.\nVaccines still worked, but Delta could slip through them. Suddenly, the idea of “enough protection” got complicated.\nSo let’s ask the key question:\n\nHow much protection — through vaccines and coverage — do we really need to stay safe when leaks become more likely?"
   },
   {
     "objectID": "posts/delta-and-quarantine-risk/index.html#remember-when-borders-felt-unbreakable",
@@ -222,5 +61,19 @@
     "title": "The Delta Paradox: How a New COVID-19 Variant Rewrote the Rules of Border Safety",
     "section": "References",
     "text": "References\n\nZachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon, J., McCaw, J., & Geard, N. (2022). COVID-19 in low-tolerance border quarantine systems: impact of the Delta variant of SARS-CoV-2. Science Advances, 8(14), eabm3624. https://www.science.org/doi/10.1126/sciadv.abm3624"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Kunal’s Blog – Stories from ETC5523",
+    "section": "",
+    "text": "Welcome to My Blog\n    \n      Data, stories, and reflections from ETC5523 – Communicating with Data.\n      Short, readable posts: takeaway first, evidence next.\n    \n  \n\n\n✍️ About This Space\nThis blog is a public journal of my learning journey in data communication. Each post started as a class assignment, then evolved into a story that anyone can read — even without a statistics degree.\nHere’s what I try to do with every post: - Focus on clarity first — no jargon walls. - Let visuals do some of the explaining. - Keep it short enough to finish with your morning coffee. ☕\nI write mainly about data, design, and decision-making — but occasionally about the process of learning itself.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Delta Paradox: How a New COVID-19 Variant Rewrote the Rules of Border Safety\n\n\n\nRisk\n\n\nVaccines\n\n\nCOVID-19\n\n\n\n\n\n\n\nKunal Kapoor\n\n\nOct 10, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Stories, visuals, and insights by Kunal Kapoor",
+    "section": "",
+    "text": "Hi, I’m Kunal Kapoor\n    Short, readable posts from ETC5523 — takeaway first, evidence next.\n    \n      View Blog\n      About Me\n    \n  \n\n\nAbout Me\nCalm mornings. Loud playlists. Straight-to-the-point writing.\nRead more →\n\n\nBlog\nStories from assignments turned into clean, public-facing posts.\nBrowse posts →"
   }
 ]
