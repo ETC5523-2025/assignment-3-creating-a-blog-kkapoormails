@@ -4,7 +4,14 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Hey, I’m Kunal.\n    \n     Hi! I’m Kunal Kapoor—a big fan of meeting new people, discovering new places,\n      and jumping into a good game (whether it’s on a field or at a board).\n\n      Friends and colleagues sometimes call me a “social butterfly” because I love connecting\n      with just about anyone and turning strangers into friends.\n      Travel keeps life exciting—I’m always up for a new adventure, a new city, or a wild\n      travel story to swap (bonus points if there’s great food involved).\n    \n      If you’re here, welcome — take a look around, say hi, and tell me what I should be reading next.\n    \n    \n      Read the Blog\n      GitHub\n      Email\n      LinkedIn"
+    "text": "I’m a curious, people-first analytics grad based in Melbourne—always up for a great convo,\n      a new city, and a game (on a field or a board).\n    \n\n    \n      Read the Blog\n      GitHub\n      Email\n      LinkedIn"
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About Me",
+    "section": "About me",
+    "text": "About me\nSome people find their passion through silence — I found mine through conversation. From that childhood moment when my teacher told my parents, “Kunal talks to everyone,” I realized connection was my superpower. Over time, I’ve learned that meaningful communication isn’t just about talking — it’s about understanding how people, data, and decisions all interact.\nToday, I’m pursuing a Master of Business Analytics at Monash University, learning to turn data into clear, impactful stories. My coursework and projects span from spatial data analysis and reproducibility in R to storytelling through Quarto reports. What excites me most is bridging the gap between analytics and communication — transforming technical insights into narratives that people can actually act on.\nOutside of study and work, I’m a proud Indian with an explorer’s heart. I love discovering new cities, foods, and perspectives — and I’m at my happiest when surrounded by family, friends, or a good debate. Life, to me, is about continuous learning, collaboration, and keeping curiosity alive — whether in a dataset or a conversation."
   },
   {
     "objectID": "posts/delta-and-quarantine-risk/index.html",
@@ -65,9 +72,9 @@
   {
     "objectID": "posts/index.html",
     "href": "posts/index.html",
-    "title": "Kunal’s Blog – Stories from ETC5523",
+    "title": "Turning Boring papers into Blogs",
     "section": "",
-    "text": "Welcome to My Blog\n    \n      Data, stories, and reflections from ETC5523 – Communicating with Data.\n      Short, readable posts: takeaway first, evidence next.\n    \n  \n\n\n✍️ About This Space\nThis blog is a public journal of my learning journey in data communication. Each post started as a class assignment, then evolved into a story that anyone can read — even without a statistics degree.\nHere’s what I try to do with every post: - Focus on clarity first — no jargon walls. - Let visuals do some of the explaining. - Keep it short enough to finish with your morning coffee. ☕\nI write mainly about data, design, and decision-making — but occasionally about the process of learning itself.\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Delta Paradox: How a New COVID-19 Variant Rewrote the Rules of Border Safety\n\n\n\nRisk\n\n\nVaccines\n\n\nCOVID-19\n\n\n\n\n\n\n\nKunal Kapoor\n\n\nOct 10, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to My Blog\n    \n      Data, stories, and reflections\n    \n  \n\n\n✍️ About This Space\nThis blog is a small collection of what I’ve learned about turning data into stories.\nEach post began as a class project, but I’ve rewritten them so anyone can follow along — no statistics background needed.\nI try to\n\nKeep things clear and easy to read\nUse visuals to make ideas click\nKeep posts short enough to enjoy with a cup of coffee ☕\n\nMost of what I write is about data, communication, and decision-making, but sometimes it’s also about the learning process — what works, what doesn’t, and what I’m figuring out along the way.\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Delta Paradox: How a New COVID-19 Variant Rewrote the Rules of Border Safety\n\n\n\nRisk\n\n\nVaccines\n\n\nCOVID-19\n\n\n\n\n\n\n\nKunal Kapoor\n\n\nOct 10, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
