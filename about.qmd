@@ -13,16 +13,10 @@ page-layout: full
   <div class="hero-copy">
     <h2 class="hero-title">Hey, I’m Kunal.</h2>
     <p class="hero-tagline">
-     Hi! I’m Kunal Kapoor—a big fan of meeting new people, discovering new places,
-      and jumping into a good game (whether it’s on a field or at a board).<br><br>
+      I’m a curious, people-first analytics grad based in Melbourne—always up for a great convo,
+      a new city, and a game (on a field or a board).
+    </p>
 
-      Friends and colleagues sometimes call me a “social butterfly” because I love connecting
-      with just about anyone and turning strangers into friends.<br><br>
-      Travel keeps life exciting—I’m always up for a new adventure, a new city, or a wild
-      travel story to swap (bonus points if there’s great food involved).<br><br>
-    </p>
-      If you’re here, welcome — take a look around, say hi, and tell me what I should be reading next.
-    </p>
     <div class="hero-actions">
       <a class="kbtn" href="/">Read the Blog</a>
       <a class="kbtn kbtn-ghost" href="https://github.com/kkapoormails">GitHub</a>
@@ -33,3 +27,11 @@ page-layout: full
 
 </div>
 ```
+
+## About me
+
+Some people find their passion through silence — I found mine through conversation. From that childhood moment when my teacher told my parents, *“Kunal talks to everyone,”* I realized connection was my superpower. Over time, I’ve learned that meaningful communication isn’t just about talking — it’s about understanding how people, data, and decisions all interact.
+
+Today, I’m pursuing a **Master of Business Analytics at Monash University**, learning to turn data into clear, impactful stories. My coursework and projects span from spatial data analysis and reproducibility in R to storytelling through Quarto reports. What excites me most is bridging the gap between analytics and communication — transforming technical insights into narratives that people can actually act on.
+
+Outside of study and work, I’m a proud Indian with an explorer’s heart. I love discovering new cities, foods, and perspectives — and I’m at my happiest when surrounded by family, friends, or a good debate. Life, to me, is about continuous learning, collaboration, and keeping curiosity alive — whether in a dataset or a conversation.
